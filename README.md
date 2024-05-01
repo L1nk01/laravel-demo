@@ -21,9 +21,9 @@ or
 ```cp .env.example .env```
 
 5. Configure the database in the '.env' file  
-```DB_DATABASE=nombre_de_tu_base_de_datos```  
-```DB_USERNAME=tu_usuario```  
-```DB_PASSWORD=tu_contraseña```
+```DB_DATABASE=database_name```  
+```DB_USERNAME=username```  
+```DB_PASSWORD=password```
 
 6. Run the database migrations  
 ```php artisan migrate```
